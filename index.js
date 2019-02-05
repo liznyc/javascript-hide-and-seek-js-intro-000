@@ -19,6 +19,6 @@ function deepestChild(){
     .querySelectorAll('div');
   for (let i = 0; i < lis.length; i++) {
     if(lis[i] != null){
-    return lis[i].innerHTML;
+    return lis[i];
   }}
 }
